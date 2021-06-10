@@ -1,0 +1,23 @@
+.container{
+    max-width: $desktop-container;
+    padding: 12.5rem 10.25rem;
+    margin: auto;
+    .card{
+        
+        display: flex;
+        
+        background-color: $darkDesBlue;
+
+        .card__img{
+
+            &-mobile{
+                display:none;
+            }
+
+            &-desktop{
+                object-fit:cover;
+            }
+        }
+    }
+    
+}
