@@ -1,4 +1,5 @@
 .container{
+    background-color: $darkBlue;
     padding: 5rem 1.5rem;
     max-width: 1440px;
 }
@@ -121,14 +122,8 @@
                 margin-bottom: 0;
 
                 li:not(:first-child){
-                    padding: 0;
                     padding-left: 3rem;
 
-                }
-
-                li{
-                    padding: 0;
-                    margin: 0;
                 }
             }
         }
